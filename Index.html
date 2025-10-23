@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Video Page</title>
+  <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet" />
+</head>
+
+<body>
+  <video
+    id="my-video"
+    class="video-js"
+    controls
+    preload="auto"
+    width="640"
+    height="360"
+    data-setup='{"language":"hi"}'>
+    <source src="movie_with_multi_audio.mp4" type="video/mp4" />
+  </video>
+
+  <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script>
+</body>
+</html>
