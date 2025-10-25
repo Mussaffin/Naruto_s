@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&family=Squada+One&display=swap');
+
+
+* {
+    margin: 0
+}
+
+body {
+    background-image: url(https://img.freepik.com/premium-vector/pattern-welcome-back-school-with-modern-thin-line-icons-school-supplies-white-background-back-school-background-back-school-super-shopping-super-sale-vector-illustration_824631-4275.jpg);
+}
+
+h1 {
+    color: chocolate;
+    text-shadow: -1px -1px 0 aqua, 1px -1px 0 aqua, -1px 1px 0 aqua, 1px 1px 0 aqua;
+    font-family: "SUSE Mono", sans-serif;
+    margin: 8px;
+    padding: 8px;
+    width: 80vw;
+    justify-self: center;
+}
+
+a {
+    color: rgb(78, 7, 7);
+    background-color: rgba(245, 222, 179, 0.700);
+    text-decoration: none;
+    border: 2px solid rgb(14, 14, 73);
+    border-radius: 7px;
+    padding: 6.5px;
+    /* margin: 7px; */
+}
+
+a:hover {
+    color: rgba(255, 0, 0, 0.5);
+    background-color: rgba(142, 202, 0, 0.5);
+}
+
+a:active {
+    color: rgba(0, 255, 34, 0.500);
+    background-color: rgba(255, 255, 255, 0.500);
+}
+
+.first {
+    font-family: "Dancing Script", cursive;
+}
+
+.second {
+    font-family: "Cedarville Cursive", cursive;
+}
+
+.third {
+    font-family: "Squada One", sans-serif;
+    ;
+}
+
+.btn:hover {
+    transform: scale(1.010);
+    transition: all 1s ease-out;
+}
+
+li {
+    list-style-type: none;
+}
+
+.btn {
+    margin: 22px;
+}
+
+
+.space {
+    height: 500vh;
+}
+
+div.line {
+    height: 1vh;
+    background-color: rgb(37, 33, 33);
+    margin: 0;
+}
+
+div.copy {
+    text-align: center;
+    color: rgb(88, 9, 9);
+    height: 20vh;
+    margin: 0;
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+}
+
+
+div span {
+    font-weight: 1666;
+}
