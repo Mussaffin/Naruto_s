@@ -54,5 +54,5 @@ li:hover {
     transition: all 1s ease;
 }
 main ul{
-    justify-content: center;
+    justify-self: center;
 }
