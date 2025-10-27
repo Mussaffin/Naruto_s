@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(119, 119, 185);
+}
+
+nav {
+    display: flex;
+    background-color: blue;
+    padding: 19px;
+    color: white;
+    justify-content: space-around;
+
+}
+
+nav ul {
+    display: flex;
+}
+
+li.nv {
+    list-style-type: none;
+}
+
+a.n {
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
+}
+
+main {
+    margin: 60px;
+    padding: 5px;
+}
+
+main.err {
+    color: red;
+}
+main.cent{
+    text-align: center;
+}
