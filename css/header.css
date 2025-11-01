@@ -35,9 +35,6 @@ main {
     padding: 5px;
 }
 
-main.err {
-    color: red;
-}
 main.cent{
     text-align: center;
 }

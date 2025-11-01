@@ -1,16 +1,34 @@
 h1{
     text-align: center;
 }
+h2{
+    text-align: center;
+}
+h3.cent{
+    text-align: center;
+}
 span.und{
     text-decoration: underline;
 }
 span.bx{
     border: 1px solid rgb(10, 10, 66);
-    padding: 6%;
+    padding: 1%;
+}
+span.bld{
+    font-weight: 1000;
 }
 li.bx{
     margin: 20px;
 }
+ol.none{
+    list-style-type: none;
+}
+ul.none{
+    list-style-type: none;
+}
 ul.arl{
     list-style-type: ">ㅤ";
+}
+div.uc{
+    text-decoration: none;
 }
